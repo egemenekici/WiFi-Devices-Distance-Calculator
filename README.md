@@ -2,7 +2,7 @@
 
 It's a simple python project that sniffs all the networks and make an estimation about distance between the WiFi device and the using sensor with just using RSSI Signal Power and Channel of WiFi Device.
 
-*Dependencies
+# Dependencies
   1) Python Scapy Lib
   2) Monitor Mode WiFi Card
   3) Python Pandas Lib (For Printing the Output)
@@ -10,7 +10,7 @@ It's a simple python project that sniffs all the networks and make an estimation
 SCAPY
 
 a) It can installed by using pip:
-  pip3 install scapy
+  	pip3 install scapy
   
 b) Can cloned the current development version in Github:
 	git clone https://github.com/secdev/scapy.git
@@ -25,7 +25,7 @@ PANDAS
 MONITOR MODE
 
 1) Let's start by checking for the interface name:
-	# sudo iwconfig
+	sudo iwconfig
 It shows the name of the interface "wlan0" and that it is in "Mode: Managed".
 
 2) To enable monitor mode you once again have to turn the interface off, change its mode, then bring it back up again:
@@ -39,7 +39,7 @@ Check that with the "iwconfig" that the mode is changed to Monitor.
 	sudo iwconfig wlan0 mode managed
 	sudo ifconfig wlan0 up
   
-DISTANCE CALCULATION
+# DISTANCE CALCULATION
   
 By scanning a Wi-Fi traffic, your antenna will receive different signal power levels from different hosts, measured in dBm (decibel-meter). This power level can be converted into an approximate distance using some math based on the signal's frequency.
 The basic idea is the more strong the signal, the closer you're to the host and vice versa.
