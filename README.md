@@ -9,8 +9,8 @@ It's a simple python project that sniffs all the networks and make an estimation
 
 * SCAPY
 
-	1) It can installed by using pip:   
-    		>pip3 install scapy  
+	1) It can be installed by using pip:  
+		>pip3 install pandas
   
 	2) Can cloned the current development version in Github:  
 		>git clone https://github.com/secdev/scapy.git  
