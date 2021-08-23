@@ -10,11 +10,7 @@ It's a simple python project that sniffs all the networks and make an estimation
 * SCAPY
 
 	a) It can installed by using pip:   
-	<p align="center">
-
-    pip3 install scapy
-
-	</p>
+    		pip3 install scapy
   
 	b) Can cloned the current development version in Github:  
 		__git clone https://github.com/secdev/scapy.git  
@@ -50,20 +46,15 @@ The basic idea is the more strong the signal, the closer you're to the host and 
 Although the position of an electron can't be determined and neither its energy, this can be mathematically formalized using Free-space path loss logarithmic attenuation :
 
 
-<p align="center">
-
     ![image](https://user-images.githubusercontent.com/56837694/130411957-49c0b2a8-3e7f-498e-958b-aeed37665e27.png)
 
-</p>
 
 
 147.55 is the constant which depends on the units, in this case it will be megahertz and meters, with the associated constant equal to 27.55.  
 If distance is to be calculated, the formula needs to be reversed as follows: 
 
-<p align="center">
 
     ![image](https://user-images.githubusercontent.com/56837694/130411977-644661da-b291-454c-91ee-a6b3aca36df2.png)
-</p>
 
 1) f is the frequency of WiFi in MHz
 2) dBm is the indicated power level (RSSI Signal Strength)
