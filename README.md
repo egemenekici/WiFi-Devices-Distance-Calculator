@@ -13,7 +13,7 @@ It's a simple python project that sniffs all the networks and make an estimation
   		\n pip3 install scapy
   
 	b) Can cloned the current development version in Github:  
-		git clone https://github.com/secdev/scapy.git  
+		__git clone https://github.com/secdev/scapy.git  
 		cd scapy  
 		sudo python setup.py install
   	
