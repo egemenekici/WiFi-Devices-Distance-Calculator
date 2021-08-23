@@ -9,7 +9,7 @@ It's a simple python project that sniffs all the networks and make an estimation
 
 * SCAPY
 
-	a) It can installed by using pip:  
+	a) It can installed by using pip:    
   		\n pip3 install scapy
   
 	b) Can cloned the current development version in Github:  
