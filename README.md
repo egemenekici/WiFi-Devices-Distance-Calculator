@@ -10,22 +10,22 @@ It's a simple python project that sniffs all the networks and make an estimation
 * SCAPY
 
 	a) It can installed by using pip:   
-    		*>pip3 install scapy*
+    		>pip3 install scapy
   
 	b) Can cloned the current development version in Github:  
-		>*git clone https://github.com/secdev/scapy.git  
+		>git clone https://github.com/secdev/scapy.git  
 		>cd scapy  
-		>sudo python setup.py install*
+		>sudo python setup.py install
   	
 * PANDAS
 
 	1) It can also be installed by using pip:  
-		*>pip3 install pandas*
+		>pip3 install pandas
   
 * MONITOR MODE
 
 	1) Let's start by checking for the interface name:  
-		*>sudo iwconfig*  
+		>sudo iwconfig  
 	It shows the name of the interface "wlan0" and that it is in "Mode: Managed".
 
 	2) To enable monitor mode you once again have to turn the interface off, change its mode, then bring it back up again:  
