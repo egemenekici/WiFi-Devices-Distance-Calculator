@@ -10,7 +10,7 @@ It's a simple python project that sniffs all the networks and make an estimation
 SCAPY
 
 a) It can installed by using pip:
-  	pip3 install scapy
+  	\n pip3 install scapy
   
 b) Can cloned the current development version in Github:
 	git clone https://github.com/secdev/scapy.git
@@ -19,7 +19,7 @@ b) Can cloned the current development version in Github:
   
 PANDAS
 
-1) It can also be installed bu using pip:
+1) It can also be installed by using pip:
 	pip3 install pandas
   
 MONITOR MODE
@@ -39,7 +39,7 @@ Check that with the "iwconfig" that the mode is changed to Monitor.
 	sudo iwconfig wlan0 mode managed
 	sudo ifconfig wlan0 up
   
-# DISTANCE CALCULATION
+# Distance Calculation
   
 By scanning a Wi-Fi traffic, your antenna will receive different signal power levels from different hosts, measured in dBm (decibel-meter). This power level can be converted into an approximate distance using some math based on the signal's frequency.
 The basic idea is the more strong the signal, the closer you're to the host and vice versa.
