@@ -19,25 +19,25 @@ It's a simple python project that sniffs all the networks and make an estimation
   	
 * PANDAS
 
-1) It can also be installed by using pip:
-	pip3 install pandas
+	1) It can also be installed by using pip:  
+		pip3 install pandas
   
 * MONITOR MODE
 
-1) Let's start by checking for the interface name:
-	sudo iwconfig
-It shows the name of the interface "wlan0" and that it is in "Mode: Managed".
+	1) Let's start by checking for the interface name:  
+		sudo iwconfig  
+	It shows the name of the interface "wlan0" and that it is in "Mode: Managed".
 
-2) To enable monitor mode you once again have to turn the interface off, change its mode, then bring it back up again:
-	sudo ifconfig wlan0 down
-	sudo iwconfig wlan0 mode monitor
-	sudo ifconfig wlan0 up
-Check that with the "iwconfig" that the mode is changed to Monitor.
+	2) To enable monitor mode you once again have to turn the interface off, change its mode, then bring it back up again:  
+		sudo ifconfig wlan0 down  
+		sudo iwconfig wlan0 mode monitor  
+		sudo ifconfig wlan0 up  
+	Check that with the "iwconfig" that the mode is changed to Monitor.
 
-3) To return the interface to normal managed mode:
-	sudo ifconfig wlan0 down
-	sudo iwconfig wlan0 mode managed
-	sudo ifconfig wlan0 up
+	3) To return the interface to normal managed mode:  
+		sudo ifconfig wlan0 down  
+		sudo iwconfig wlan0 mode managed  
+		sudo ifconfig wlan0 up  
   
 # Distance Calculation
   
