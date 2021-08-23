@@ -48,7 +48,7 @@ Although the position of an electron can't be determined and neither its energy,
 
 <p align="center">
 
-  <img src="https://user-images.githubusercontent.com/56837694/130411957-49c0b2a8-3e7f-498e-958b-aeed37665e27.png">
+  <img src="https://user-images.githubusercontent.com/56837694/130437467-2463bac2-7050-4a91-b3c2-571fca651fbe.png">
 
 </p>
 
