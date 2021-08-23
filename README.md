@@ -41,13 +41,13 @@ It's a simple python project that sniffs all the networks and make an estimation
   
 # Distance Calculation
   
-By scanning a Wi-Fi traffic, your antenna will receive different signal power levels from different hosts, measured in dBm (decibel-meter). This power level can be converted into an approximate distance using some math based on the signal's frequency.
-The basic idea is the more strong the signal, the closer you're to the host and vice versa.
+By scanning a Wi-Fi traffic, your antenna will receive different signal power levels from different hosts, measured in dBm (decibel-meter). This power level can be converted into an approximate distance using some math based on the signal's frequency.  
+The basic idea is the more strong the signal, the closer you're to the host and vice versa.  
 Although the position of an electron can't be determined and neither its energy, this can be mathematically formalized using Free-space path loss logarithmic attenuation :
 
 ![image](https://user-images.githubusercontent.com/56837694/130411957-49c0b2a8-3e7f-498e-958b-aeed37665e27.png)
 
-147.55 is the constant which depends on the units, in this case it will be megahertz and meters, with the associated constant equal to 27.55
+147.55 is the constant which depends on the units, in this case it will be megahertz and meters, with the associated constant equal to 27.55.  
 If distance is to be calculated, the formula needs to be reversed as follows: 
 
 ![image](https://user-images.githubusercontent.com/56837694/130411977-644661da-b291-454c-91ee-a6b3aca36df2.png)
