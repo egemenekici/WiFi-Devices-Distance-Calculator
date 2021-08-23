@@ -2,6 +2,15 @@
 
 It's a simple python project that sniffs all the networks and make an estimation about distance between the WiFi device and the using sensor by using RSSI Signal Power and Channel of searching WiFi Device.
 
+
+<p align="center">
+
+  <img src="https://user-images.githubusercontent.com/56837694/130444744-102d5793-356f-4f5e-87e5-fe226696a515.gif">
+
+</p>
+
+
+
 # Dependencies
   1) Python Scapy Lib
   2) Monitor Mode WiFi Card
