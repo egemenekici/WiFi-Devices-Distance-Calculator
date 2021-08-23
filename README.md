@@ -9,10 +9,10 @@ It's a simple python project that sniffs all the networks and make an estimation
 
 * SCAPY
 
-	a) It can installed by using pip:   
+	1) It can installed by using pip:   
     		>pip3 install scapy
   
-	b) Can cloned the current development version in Github:  
+	2) Can cloned the current development version in Github:  
 		>git clone https://github.com/secdev/scapy.git  
 		>cd scapy  
 		>sudo python setup.py install
@@ -26,15 +26,15 @@ It's a simple python project that sniffs all the networks and make an estimation
 
 	1) Let's start by checking for the interface name:  
 		>sudo iwconfig  
-	It shows the name of the interface "wlan0" and that it is in "Mode: Managed".
+	2) It shows the name of the interface "wlan0" and that it is in "Mode: Managed".
 
-	2) To enable monitor mode you once again have to turn the interface off, change its mode, then bring it back up again:  
+	3) To enable monitor mode you once again have to turn the interface off, change its mode, then bring it back up again:  
 		>sudo ifconfig wlan0 down  
 		>sudo iwconfig wlan0 mode monitor  
 		>sudo ifconfig wlan0 up  
-	Check that with the "iwconfig" that the mode is changed to Monitor.
+	4) Check that with the "iwconfig" that the mode is changed to Monitor.
 
-	3) To return the interface to normal managed mode:  
+	5) To return the interface to normal managed mode:  
 		>sudo ifconfig wlan0 down  
 		>sudo iwconfig wlan0 mode managed  
 		>sudo ifconfig wlan0 up  
