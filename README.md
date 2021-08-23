@@ -7,7 +7,7 @@ It's a simple python project that sniffs all the networks and make an estimation
   2) Monitor Mode WiFi Card
   3) Python Pandas Lib (For Printing the Output)
 
-SCAPY
+* SCAPY
 
 a) It can installed by using pip:
   	\n pip3 install scapy
@@ -17,12 +17,12 @@ b) Can cloned the current development version in Github:
 	cd scapy
 	sudo python setup.py install
   
-PANDAS
+* PANDAS
 
 1) It can also be installed by using pip:
 	pip3 install pandas
   
-MONITOR MODE
+* MONITOR MODE
 
 1) Let's start by checking for the interface name:
 	sudo iwconfig
