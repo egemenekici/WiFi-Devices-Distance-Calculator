@@ -25,7 +25,7 @@ PANDAS
 MONITOR MODE
 
 1) Let's start by checking for the interface name:
-	sudo iwconfig
+	# sudo iwconfig
 It shows the name of the interface "wlan0" and that it is in "Mode: Managed".
 
 2) To enable monitor mode you once again have to turn the interface off, change its mode, then bring it back up again:
@@ -54,4 +54,4 @@ If distance is to be calculated, the formula needs to be reversed as follows:
 
 1) f is the frequency of WiFi in MHz
 2) dBm is the indicated power level (RSSI Signal Strength)
-3 ) c is our FSPL constant (27.55)
+3) c is our FSPL constant (27.55)
