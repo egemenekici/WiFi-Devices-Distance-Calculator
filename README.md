@@ -45,8 +45,7 @@ By scanning a Wi-Fi traffic, your antenna will receive different signal power le
 The basic idea is the more strong the signal, the closer you're to the host and vice versa.  
 Although the position of an electron can't be determined and neither its energy, this can be mathematically formalized using Free-space path loss logarithmic attenuation :
 
-
-    ![image](https://user-images.githubusercontent.com/56837694/130411957-49c0b2a8-3e7f-498e-958b-aeed37665e27.png)
+![image](https://user-images.githubusercontent.com/56837694/130411957-49c0b2a8-3e7f-498e-958b-aeed37665e27.png)
 
 
 
@@ -54,7 +53,7 @@ Although the position of an electron can't be determined and neither its energy,
 If distance is to be calculated, the formula needs to be reversed as follows: 
 
 
-    ![image](https://user-images.githubusercontent.com/56837694/130411977-644661da-b291-454c-91ee-a6b3aca36df2.png)
+![image](https://user-images.githubusercontent.com/56837694/130411977-644661da-b291-454c-91ee-a6b3aca36df2.png)
 
 1) f is the frequency of WiFi in MHz
 2) dBm is the indicated power level (RSSI Signal Strength)
