@@ -1,8 +1,8 @@
 # WiFi-Devices-Distance-Calculator
-Python Project
 
+It's a simple python project that sniffs all the networks and make an estimation about distance between the WiFi device and the using sensor with just using RSSI Signal Power and Channel of WiFi Device.
 
-Dependencies
+*Dependencies
   1) Python Scapy Lib
   2) Monitor Mode WiFi Card
   3) Python Pandas Lib (For Printing the Output)
