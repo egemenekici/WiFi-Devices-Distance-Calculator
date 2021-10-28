@@ -33,19 +33,19 @@ It can also be installed by using pip:
 MONITOR MODE
 ------------
 	1) Let's start by checking for the interface name:  
-		>sudo iwconfig  
+		$ sudo iwconfig  
 	2) It shows the name of the interface "wlan0" and that it is in "Mode: Managed".
 
 	3) To enable monitor mode you once again have to turn the interface off, change its mode, then bring it back up again:  
-		>sudo ifconfig wlan0 down  
-		>sudo iwconfig wlan0 mode monitor  
-		>sudo ifconfig wlan0 up  
+		$ sudo ifconfig wlan0 down  
+		$ sudo iwconfig wlan0 mode monitor  
+		$ sudo ifconfig wlan0 up  
 	4) Check that with the "iwconfig" that the mode is changed to Monitor.
 
 	5) To return the interface to normal managed mode:  
-		>sudo ifconfig wlan0 down  
-		>sudo iwconfig wlan0 mode managed  
-		>sudo ifconfig wlan0 up 
+		$ sudo ifconfig wlan0 down  
+		$ sudo iwconfig wlan0 mode managed  
+		$ sudo ifconfig wlan0 up 
     
 DISTANCE CALCULATION
 ------------
